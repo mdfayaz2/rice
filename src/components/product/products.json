@@ -1,0 +1,103 @@
+[
+    {
+        "id": "1",
+        "name": "Sona Massori Rice",
+        "image": "/1.PNG"
+    },
+    {
+        "id": "2",
+        "name": "Basmati Rice",
+        "image": "/2.PNG"
+    },
+    {
+        "id": "3",
+        "name": "Brown Rice",
+        "image": "/3.PNG"
+    },
+    {
+        "id": "4",
+        "name": "Arborio Rice",
+        "image": "/4.PNG"
+    },
+    {
+        "id": "5",
+        "name": "Jasmine Rice",
+        "image": "/5.PNG"
+    },
+    {
+        "id": "6",
+        "name": "Parboiled Rice",
+        "image": "/6.PNG"
+    },
+    {
+        "id": "7",
+        "name": "Green Gram",
+        "image": "/7.PNG"
+    },
+    {
+        "id": "8",
+        "name": "Black Gram",
+        "image": "/8.PNG"
+    },
+    {
+        "id": "9",
+        "name": "Cowpea",
+        "image": "/9.PNG"
+    },
+    {
+        "id": "10",
+        "name": "Horse Gram",
+        "image": "/10.PNG"
+    },
+    {
+        "id": "11",
+        "name": "Masoor Dal",
+        "image": "/11.PNG"
+    },
+    {
+        "id": "12",
+        "name": "Chick Pea",
+        "image": "/12.PNG"
+    },
+    {
+        "id": "13",
+        "name": "Rajma",
+        "image": "/13.PNG"
+    },
+    {
+        "id": "14",
+        "name": "Chana Dal",
+        "image": "/14.PNG"
+    },
+    {
+        "id": "15",
+        "name": "Pigeon Pea",
+        "image": "/15.PNG"
+    },
+    {
+        "id": "16",
+        "name": "Yellow Lentil",
+        "image": "/16.PNG"
+    },
+    {
+        "id": "17",
+        "name": "Black Chickpea",
+        "image": "/17.PNG"
+    },
+    {
+        "id": "18",
+        "name": "Roasted split gram",
+        "image": "/18.PNG"
+    },
+    {
+        "id": "19",
+        "name": "Split chickpeas",
+        "image": "/19.PNG"
+    },
+    {
+        "id": "20",
+        "name": "Ground nut",
+        "image": "/20.PNG"
+    }
+
+]

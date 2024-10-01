@@ -1,0 +1,98 @@
+/* Product container */
+.product-container {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+/* Heading styling */
+.heading {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: underline;
+  color: black;
+  margin-bottom: 40px;
+  padding-top: 3%;
+}
+
+/* Product list - flexbox for responsiveness */
+.product-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 50px auto; /* Center alignment with auto margin */
+  max-width: 1200px; /* Prevent the product list from being too wide */
+}
+
+/* Individual product card styling */
+.product-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 220px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #fff;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Product image styling */
+.product-image {
+  width: 100%; /* Responsive width */
+  height: 200px;
+  margin-bottom: 20px;
+  object-fit: cover; /* Ensure image fits without distortion */
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover .product-image {
+  transform: scale(1.1); /* Zoom effect on hover */
+}
+
+/* Product title styling */
+.product-card h2 {
+  margin-top: 10px;
+  font-size: 1.7rem;
+  font-weight: 600;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.product-card:hover h2 {
+  color: #ff6347; /* Tomato color on hover */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .product-list {
+    gap: 20px;
+    margin: 20px; /* Reduce margin on smaller screens */
+  }
+
+  .product-card {
+    width: 180px; /* Smaller width for smaller screens */
+  }
+
+  .product-card h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .product-card {
+    width: 100%; /* Full width on small screens */
+    margin-bottom: 30px;
+  }
+
+  .product-image {
+    height: 150px; /* Smaller height for smaller screens */
+  }
+}

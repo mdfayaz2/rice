@@ -1,0 +1,93 @@
+/* Modern styles for the Carousel */
+.carousel-container {
+  width: 90%; /* Adjusted width */
+  max-width: 2000px; 
+  /* Auto height ensures it adjusts based on content */
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding-top: 20px;
+  position: relative; /* Ensure carousel takes its own space */
+  overflow: hidden; /* Prevent content from spilling out */
+  z-index: 1; /* Adjust z-index if needed */
+}
+
+.carousel .control-arrow,
+.carousel.carousel-slider .control-arrow {
+  height: 100%; /* Control arrow spans full height */
+  width: 60px;
+  border-radius: 0;
+  transition: background-color 0.3s ease;
+}
+
+.carousel .control-arrow:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.carousel .control-arrow:before {
+  font-size: 30px;
+}
+
+.carousel .control-dots {
+  bottom: 10px;
+}
+
+.carousel .control-dots .dot {
+  background: rgba(255, 255, 255, 0.7);
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  border-radius: 50%;
+  transition: background 0.3s ease;
+}
+
+.carousel .control-dots .dot.selected {
+  background: #e1e5e6;
+}
+
+.carousel img {
+  width: 100%; /* Make image width responsive */
+  height: 675px; /* Maintain aspect ratio */
+   /* Ensures the image never exceeds the container's height */
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.carousel .slide {
+  background: none;
+  position: relative;
+  height: auto; /* Let the height adjust automatically */
+}
+
+@media (max-width: 768px) {
+  .carousel-container {
+    padding: 10px;
+    width: 95%;
+  }
+
+  .carousel .control-arrow,
+  .carousel .control-arrow:before {
+    font-size: 24px;
+  }
+
+  .carousel .control-dots .dot {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-container {
+    padding: 5px;
+    width: 100%;
+  }
+
+  .carousel .control-arrow,
+  .carousel .control-arrow:before {
+    font-size: 20px;
+  }
+
+  .carousel .control-dots .dot {
+    width: 8px;
+    height: 8px;
+  }
+}
